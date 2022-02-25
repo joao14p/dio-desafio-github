@@ -1,19 +1,25 @@
 
 body{
     background-image: url("dev.png");
+}
 
+.photo{
+    border-radius: 50%;
+    border: 1px solid black;
 }
 #title {
-    color:rgba(40, 95, 247, 0.726);
+    color:rgba(3, 3, 3, 0.726);
 } 
 .subtitle, .post_title{
-    color: rgb(20, 20, 92);
+    color: rgb(19, 19, 20);
     font-size: 27px;
 }
 
 .post_title{
     font-size: 18px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .text{
@@ -21,9 +27,18 @@ body{
     font-style: oblique;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    margin-bottom: 15px;
 }
 .post_{
     background-color:rgba(199, 236, 243, 0.733);
-    padding: 10px;
+    padding: 15px;
     border: 3px solid black;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.list{
+    font-family: cursive;
+    font-size: 18px;
 }
