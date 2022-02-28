@@ -10,8 +10,8 @@ body{
 #title {
     font-family:'Courier New', Courier, monospace;
     color:rgba(0, 0, 0, 0.726);
-    padding-top: 10px;
-    font-size: 43px;
+    padding-top: 12px;
+    font-size: 45px;
     text-transform: uppercase;
     font-weight: bolder;
     ;
@@ -52,7 +52,7 @@ a{
 .list{
     list-style-type: none;
     font-family: cursive;
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 10px;
 }
 .list li a{
